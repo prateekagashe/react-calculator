@@ -1,0 +1,38 @@
+:root {
+	--black: #000;
+	--white: #fff;
+}
+
+.btn-Operator-light {
+	width: 100px;
+	height: 40px;
+	align-items: center;
+	background-color: #f0f0f0;
+	color: var(--black)
+}
+
+.calculator-light {
+	height: 100vh;
+	background: var(--white)
+}
+
+.btn-Operator-dark {
+	width: 100px;
+	height: 40px;
+	align-items: center;
+	background-color: #666;
+	color: var(--white)
+}
+
+.calculator-dark {
+	height: 100vh;
+	background: var(--black);
+}
+
+.calculator-display {
+	width: 392px;
+	margin-top: 40px;
+	height: 40px;
+	text-align: right;
+	font-size: 18px;
+}

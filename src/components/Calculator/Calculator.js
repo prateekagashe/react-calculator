@@ -77,7 +77,7 @@ class Calculator extends React.Component {
             inputArray: [],
         });
     };
-    
+
     calculate = (val) => {
         let previouInput;
         previouInput = this.state.input1;
@@ -234,7 +234,7 @@ class Calculator extends React.Component {
                     <CustomButton
                         className={this.state.buttonClass}
                         name="Clear"
-                        handler={() => this.calculate("clear")}
+                        handler={() => this.clearDisplay()}
                     />
                     <CustomButton
                         className={this.state.buttonClass}
